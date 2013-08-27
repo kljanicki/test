@@ -15,7 +15,7 @@ namespace GitSample.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Hello Git!";
+            ViewBag.Message = "Hello Git! This seems to work!";
 
             return View();
         }
